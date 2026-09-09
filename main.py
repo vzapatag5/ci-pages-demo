@@ -1,2 +1,3 @@
 def saludo():
-    print ("¡Hola CI/CD!)")
+    x = 123 #variable sin usar -> rompe pylint
+    return "Hola CI/CD!"
